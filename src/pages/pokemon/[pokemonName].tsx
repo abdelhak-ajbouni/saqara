@@ -4,7 +4,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useQuery } from 'react-query'
-import { request, gql } from 'graphql-request'
 
 import Container from 'src/components/common/Container'
 import PokemonDetails from 'src/components/PokemonDetails'
